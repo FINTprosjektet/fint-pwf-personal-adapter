@@ -1,10 +1,13 @@
-package no.fint.provider.customcode;
+package no.fint.provider.pwf;
 
 import java.util.Arrays;
 import java.util.List;
 
 public enum Action {
-    HEALTH;
+    HEALTH,
+    GET_ALL_PERSON,
+    GET_ALL_PERSONALRESSURS,
+    GET_ALL_ARBEIDSFORHOLD;
 
     public static List<String> getActions() {
         return Arrays.asList(
